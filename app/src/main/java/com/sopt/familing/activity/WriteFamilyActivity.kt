@@ -39,8 +39,6 @@ class WriteFamilyActivity : AppCompatActivity() {
                 editor.putString("familyName",familyName)
                 editor.apply()
                 Log.d("familyName", sharedPreference.getString("family","").toString())
-
-                val intent = Intent(this, HomeActivity::class.java)
                 startActivity(intent)
             }
 
