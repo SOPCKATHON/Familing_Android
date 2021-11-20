@@ -52,56 +52,34 @@
 
 
     <!-- Text custom -->
-<!--    <style name="H1" parent="TextAppearance.AppCompat.Caption">
-        <item name="android:textSize">18sp</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
-        <item name="android:includeFontPadding">false</item>
+    <style name="Bold01">
+        <item name="android:fontFamily">@font/pretendard_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:lineSpacingExtra">7sp</item>
     </style>
 
-    <style name="H2" parent="TextAppearance.AppCompat.Caption">
-        <item name="android:textSize">18sp</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
-        <item name="android:includeFontPadding">false</item>
-    </style>
-
-    <style name="H3" parent="TextAppearance.AppCompat.Caption">
-        <item name="android:textSize">14sp</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
-        <item name="android:includeFontPadding">false</item>
-    </style>
-
-    <style name="H4" parent="TextAppearance.AppCompat.Caption">
-        <item name="android:textSize">18sp</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:fontFamily">@font/noto_sans_kr_medium</item>
-        <item name="android:includeFontPadding">false</item>
-    </style>
-
-    <style name="body1" parent="TextAppearance.AppCompat.Caption">
+    <style name="Bold02">
+        <item name="android:fontFamily">@font/pretendard_semi_bold</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textSize">16sp</item>
-        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
-        <item name="android:includeFontPadding">false</item>
     </style>
 
-    <style name="body2" parent="TextAppearance.AppCompat.Caption">
+    <style name="Regular01">
+        <item name="android:fontFamily">@font/pretendard_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Bold03">
+        <item name="android:fontFamily">@font/pretendard_regular</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textSize">14sp</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
-        <item name="android:includeFontPadding">false</item>
     </style>
 
-    <style name="body3" parent="TextAppearance.AppCompat.Caption">
-        <item name="android:textSize">12sp</item>
-        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
-        <item name="android:includeFontPadding">false</item>
+    <style name="Regular02">
+        <item name="android:fontFamily">@font/pretendard_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">14sp</item>
     </style>
-
-    <style name="Caption" parent="TextAppearance.AppCompat.Caption">
-        <item name="android:textSize">8sp</item>
-        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
-        <item name="android:includeFontPadding">false</item>
-    </style>-->
 </resources>
