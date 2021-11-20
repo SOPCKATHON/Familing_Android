@@ -5,19 +5,17 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.sopt.familing.databinding.FragmentStampBinding
+import com.sopt.familing.databinding.FragmentWriteFamilyBinding
 
-
-class StampFragment : Fragment() {
-
-    private var _binding: FragmentStampBinding?=null
+class WriteFamilyFragment : Fragment() {
+    private var _binding: FragmentWriteFamilyBinding?=null
     private val binding get()=_binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding= FragmentStampBinding.inflate(layoutInflater,container,false)
+        _binding= FragmentWriteFamilyBinding.inflate(layoutInflater,container,false)
 
 
         return binding.root
