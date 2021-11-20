@@ -28,7 +28,4 @@ class PostReadFragment : Fragment() {
     }
 
 
-
-    private fun initChipSListener(){
-    }
 }
