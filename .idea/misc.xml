@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/drawable/chip_border.xml" value="0.27314814814814814" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/drawable/chip_fill.xml" value="0.30625" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/drawable/selector_chip.xml" value="0.27314814814814814" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/layout/activity_post_write.xml" value="0.32978723404255317" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/layout/activity_splash.xml" value="0.2884963768115942" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/layout/layout_chip.xml" value="0.28306159420289856" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
