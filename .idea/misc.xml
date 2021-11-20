@@ -18,6 +18,18 @@
         <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/layout/fragment_write_family.xml" value="0.2" />
         <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/menu/bottom_navi_menu.xml" value="0.175" />
         <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/drawable/background_edit_text.xml" value="0.30625" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/drawable/chip_border.xml" value="0.27314814814814814" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/drawable/chip_fill.xml" value="0.30625" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/drawable/ic_temp.xml" value="0.1" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/drawable/selector_chip.xml" value="0.27314814814814814" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/font/pretendard.xml" value="0.3203125" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/layout/activity_home.xml" value="0.266304347826087" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/layout/activity_post_write.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/layout/activity_splash.xml" value="0.2884963768115942" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/layout/layout_chip.xml" value="0.28306159420289856" />
+
       </map>
     </option>
   </component>
