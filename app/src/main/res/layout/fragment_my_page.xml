@@ -1,14 +1,249 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragment.MyPageFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="마이페이지"
+        android:textAppearance="@style/Regular01"
+        android:textColor="@color/black_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_family"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="96dp"
+        android:src="@drawable/img_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_family_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="성현이네 가족"
+        android:textAppearance="@style/Regular02"
+        android:textColor="@color/black_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_family" />
+
+    <View
+        android:id="@+id/line_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="28dp"
+        android:background="#e3e0df"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_family_name" />
+
+    <TextView
+        android:id="@+id/tv_time_with_fam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="42dp"
+        android:text="가족과의 추억 수"
+        android:textAppearance="@style/Bold03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/line_gray" />
+
+    <ImageView
+        android:id="@+id/iv_gray_background"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/img_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/line_gray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="지난달"
+        android:textAppearance="@style/Regular02"
+        android:textColor="@color/black_main"
+        app:layout_constraintStart_toStartOf="@id/iv_gray_background"
+        app:layout_constraintTop_toTopOf="@id/iv_gray_background" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="24dp"
+        android:text="이번달"
+        android:textAppearance="@style/Regular02"
+        android:textColor="@color/black_main"
+        app:layout_constraintStart_toStartOf="@id/iv_gray_background"
+        app:layout_constraintTop_toTopOf="@id/iv_gray_background" />
+
+    <TextView
+        android:id="@+id/tv_num_prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="24dp"
+        android:text="9번"
+        android:textAppearance="@style/Bold03"
+        android:textColor="@color/red_sub"
+        app:layout_constraintStart_toStartOf="@id/iv_gray_background"
+        app:layout_constraintTop_toTopOf="@id/iv_gray_background" />
+
+    <TextView
+        android:id="@+id/tv_num_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="267dp"
+        android:layout_marginTop="24dp"
+        android:text="13번"
+        android:textAppearance="@style/Bold03"
+        android:textColor="@color/red_sub"
+        app:layout_constraintStart_toStartOf="@id/iv_gray_background"
+        app:layout_constraintTop_toTopOf="@id/iv_gray_background" />
+
+    <TextView
+        android:id="@+id/tv_this_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:text="이번달에는"
+        android:textAppearance="@style/Bold03"
+        app:layout_constraintStart_toStartOf="@id/tv_time_with_fam"
+        app:layout_constraintTop_toBottomOf="@id/line_gray" />
+
+    <ImageView
+        android:id="@+id/iv_box_1"
+        android:layout_width="0dp"
+        android:layout_height="47dp"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/rectangle_line_red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_this_month" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:text="운동"
+        android:textAppearance="@style/Bold03"
+        android:textColor="@color/red_sub"
+        app:layout_constraintStart_toStartOf="@id/iv_box_1"
+        app:layout_constraintTop_toTopOf="@id/iv_box_1" />
+
+    <TextView
+        android:id="@+id/tv_exercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="234dp"
+        android:layout_marginTop="15dp"
+        android:text="6번"
+        android:textAppearance="@style/Bold03"
+        android:textColor="@color/red_sub"
+        app:layout_constraintStart_toStartOf="@id/iv_box_1"
+        app:layout_constraintTop_toTopOf="@id/iv_box_1" />
+
+
+    <ImageView
+        android:id="@+id/iv_box_2"
+        android:layout_width="0dp"
+        android:layout_height="47dp"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/rectangle_line_red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_box_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:text="외식"
+        android:textAppearance="@style/Bold03"
+        android:textColor="@color/red_sub"
+        app:layout_constraintStart_toStartOf="@id/iv_box_2"
+        app:layout_constraintTop_toTopOf="@id/iv_box_2" />
+
+    <TextView
+        android:id="@+id/tv_eat_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="234dp"
+        android:layout_marginTop="15dp"
+        android:text="6번"
+        android:textAppearance="@style/Bold03"
+        android:textColor="@color/red_sub"
+        app:layout_constraintStart_toStartOf="@id/iv_box_2"
+        app:layout_constraintTop_toTopOf="@id/iv_box_2" />
+
+
+    <ImageView
+        android:id="@+id/iv_box_3"
+        android:layout_width="0dp"
+        android:layout_height="47dp"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/rectangle_line_red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_box_2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:text="외식"
+        android:textAppearance="@style/Bold03"
+        android:textColor="@color/red_sub"
+        app:layout_constraintStart_toStartOf="@id/iv_box_3"
+        app:layout_constraintTop_toTopOf="@id/iv_box_3" />
+
+    <TextView
+        android:id="@+id/tv_travel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="234dp"
+        android:layout_marginTop="15dp"
+        android:text="6번"
+        android:textAppearance="@style/Bold03"
+        android:textColor="@color/red_sub"
+        app:layout_constraintStart_toStartOf="@id/iv_box_3"
+        app:layout_constraintTop_toTopOf="@id/iv_box_3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="36dp"
+        android:text="을 하셨어요!"
+        android:textColor="@color/black_main"
+        android:textAppearance="@style/Bold03"
+        app:layout_constraintTop_toBottomOf="@id/iv_box_3"
+        android:layout_marginTop="17dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
