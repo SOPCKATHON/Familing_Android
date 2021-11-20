@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/drawable/button_gray_unselected.xml" value="0.1" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/drawable/button_red_main.xml" value="0.1" />
         <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/drawable/circle_gray.xml" value="0.11666666666666667" />
-        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/layout/fragment_on_boarding.xml" value="0.264" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/layout/fragment_on_boarding.xml" value="0.1" />
         <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/layout/fragment_stamp.xml" value="0.176" />
-        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/layout/fragment_write_family.xml" value="0.1" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/layout/fragment_write_family.xml" value="0.264" />
       </map>
     </option>
   </component>
