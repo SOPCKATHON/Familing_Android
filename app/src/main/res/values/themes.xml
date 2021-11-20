@@ -61,7 +61,7 @@
 
     <style name="Bold02">
         <item name="android:fontFamily">@font/pretendard_semi_bold</item>
-        <item name="android:textStyle">normal</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textSize">16sp</item>
     </style>
 
