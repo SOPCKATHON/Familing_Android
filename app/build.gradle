@@ -8,6 +8,10 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
+
+        configurations.all {
+            resolutionStrategy { force 'androidx.core:core-ktx:1.6.0' }
+        }
         applicationId "com.sopt.familing"
         minSdkVersion 23
         targetSdkVersion 30
@@ -29,6 +33,10 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    // 이거 추가
+    buildFeatures {
+        viewBinding true
     }
 }
 
