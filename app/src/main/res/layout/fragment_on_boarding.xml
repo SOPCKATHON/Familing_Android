@@ -7,16 +7,26 @@
     tools:context=".fragment.OnBoardingFragment">
 
     <TextView
+        android:id="@+id/tv_onboarding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textSize="20sp"
         android:textColor="@color/black_main"
-        android:text="가족과의 추억을 남겨\n스탬프를 모아보세요 !"
+        android:text="가족과 추억을 남겨\n스탬프를 모아보세요 !"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="161dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_stamp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_onboarding"
+        android:layout_marginTop="80dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="0dp"
