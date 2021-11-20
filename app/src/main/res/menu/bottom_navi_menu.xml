@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/menu_stamp"
-        android:icon="@drawable/ic_temp"
+        android:icon="@drawable/ic_home"
         android:title="Stemp" />
 
 <!--    <item-->
@@ -14,6 +14,6 @@
 
     <item
         android:id="@+id/menu_mypage"
-        android:icon="@drawable/ic_temp"
+        android:icon="@drawable/ic_mypage"
         android:title="MyPage" />
 </menu>
