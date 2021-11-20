@@ -15,6 +15,7 @@ class SplashActivity : AppCompatActivity() {
         Handler(Looper.getMainLooper()).postDelayed({
             val intent= Intent(this,HomeActivity::class.java)
             startActivity(intent)
+            finish()
         },100) //1초가 1000millis
         //TODO : 나중에 초 변경
     }
