@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Familing">
+        <activity android:name=".activity.HomeActivity"/>
         <activity android:name=".activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,11 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".fragment.PostReadFragment" />
         <activity android:name=".activity.PostWriteActivity" />
-        <activity android:name=".activity.StampActivity">
-
-        </activity>
     </application>
 
 </manifest>
