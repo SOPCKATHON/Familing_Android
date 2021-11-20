@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Familing">
+        <activity android:name=".activity.PostReadActivity"></activity>
+        <activity android:name=".activity.PostWriteActivity" />
+        <activity android:name=".activity.StampActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
