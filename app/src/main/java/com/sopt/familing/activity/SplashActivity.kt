@@ -16,7 +16,7 @@ class SplashActivity : AppCompatActivity() {
             val intent= Intent(this,HomeActivity::class.java)
             startActivity(intent)
             finish()
-        },100) //1초가 1000millis
+        },3000) //1초가 1000millis
         //TODO : 나중에 초 변경
     }
 }
