@@ -53,7 +53,7 @@
 
     <!-- Text custom -->
     <style name="Bold01">
-        <item name="android:fontFamily">@font/pretendard_regular</item>
+        <item name="android:fontFamily">@font/pretendard_bold</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">20sp</item>
         <item name="android:lineSpacingExtra">7sp</item>
@@ -72,7 +72,7 @@
     </style>
 
     <style name="Bold03">
-        <item name="android:fontFamily">@font/pretendard_regular</item>
+        <item name="android:fontFamily">@font/pretendard_bold</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">14sp</item>
     </style>
