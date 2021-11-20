@@ -12,14 +12,19 @@ class PostWriteActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityPostWriteBinding.inflate(layoutInflater)
-
+        initChipListener()
+        initCancelIvListener()
         setContentView(binding.root)
-        initChipSListener()
+    }
+
+    private fun initCancelIvListener(){
+        binding.ivCancel.setOnClickListener{
+            finish()
+        }
     }
 
 
-
-    private fun initChipSListener(){
+    private fun initChipListener(){
         // 외식
         binding.chip0.setOnClickListener {
             if(whatChipSelected == 0){
