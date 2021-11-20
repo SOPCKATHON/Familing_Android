@@ -11,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Familing">
-        <activity android:name=".activity.HomeActivity"/>
+        <activity
+            android:name=".activity.WriteFamilyActivity"
+            android:exported="false" />
+        <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".activity.OnBoardingActivity"/>
         <activity android:name=".activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
