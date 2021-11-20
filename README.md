@@ -1,4 +1,4 @@
-# Familing_Android
+# Familig_Android 
 
 ## 📌 서비스 이름, 소개
 
@@ -20,15 +20,17 @@
 저희는 이런 방식을 통하여 많은 분들이 '가족'에 대한 의미를 되새기고 보다 더 친밀한 관계를 형성하도록 돕는 서비스가 될 것입니다.
 
 
+## 📌 시연 영상
 
 
 
-## 📌 개발 담당 부분
+## 📌 개발 담당 부분(팀원 전원 참여!)
 
 #### 김효림 
 
 - HomeActivity (BottomNavigation + ViewPager + FloatingActionButton)
-- MyFragment
+- MyPageFragment
+- Splash
 
 
 
@@ -42,9 +44,29 @@
 #### 윤현지
 
 - StampFragment
-- Splash
+- PostReadFragment
+- OnBoard
+-  서버 연동
 
 
+
+## 📌 작동 설명
+
+1. Splash 화면
+
+2. 온보딩 화면에서 간단한 앱 소개 및 가족 이름 설정 (SharedPreference)
+
+3. StampFragment에서 가족의 추억 스탬프를 확인 가능(서버 연동하여 월별 데이터 불러오기 )
+
+4. 각 Stamp를 클릭하면 PostReadActivity로 이동
+
+5. 글쓰기 버튼을 누르면 PostWriteActivity로 이동
+
+6. 등록 버튼을 누르면 서버와 Post 통신 + 글쓰기 등록 다이얼로그
+
+7. 마이페이지 프레그먼트에서는 지난달과 올해의 데이터 비교
+
+   
 
 
 
