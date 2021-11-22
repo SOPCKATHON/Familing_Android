@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/drawable/button_gray_unselected.xml" value="0.1" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/drawable/button_red_main.xml" value="0.1" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/drawable/button_writefamily.xml" value="0.1" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/drawable/circle_gray.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/drawable/ic_temp.xml" value="0.1" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/drawable/round_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/layout/activity_on_boarding.xml" value="0.175" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/layout/activity_post_write.xml" value="0.175" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/layout/activity_splash.xml" value="0.10520833333333333" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/layout/activity_write_family.xml" value="0.1" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/layout/custom_dialog.xml" value="0.2" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/layout/fragment_my_page.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/layout/fragment_on_boarding.xml" value="0.1" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/layout/fragment_post_read.xml" value="0.72" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/layout/fragment_stamp.xml" value="0.1" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/layout/fragment_write_family.xml" value="0.2" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/menu/bottom_navi_menu.xml" value="0.175" />
+        <entry key="..\:/Users/Hyeonji/Desktop/SOPT/Familing_Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/drawable/background_edit_text.xml" value="0.30625" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/drawable/chip_border.xml" value="0.27314814814814814" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/drawable/chip_fill.xml" value="0.30625" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/drawable/ic_temp.xml" value="0.1" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/drawable/selector_chip.xml" value="0.27314814814814814" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/font/pretendard.xml" value="0.3203125" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/layout/activity_home.xml" value="0.266304347826087" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/layout/activity_on_boarding.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/layout/activity_post_write.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/layout/activity_splash.xml" value="0.2884963768115942" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/layout/activity_write_family.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/layout/fragment_stamp.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/alsd2/Desktop/Familing_Android/app/src/main/res/layout/layout_chip.xml" value="0.28306159420289856" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

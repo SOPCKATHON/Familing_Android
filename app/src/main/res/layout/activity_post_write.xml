@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PostWriteActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_write"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_write"
+        app:srcCompat="@drawable/ic_x"
+        tools:layout_height="40dp"
+        tools:layout_width="40dp" />
+
+    <TextView
+        android:id="@+id/tv_write"
+        android:textAppearance="@style/Regular01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="추억 남기기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:textAppearance="@style/Bold02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="등록"
+        android:textColor="@color/red_sub"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_write"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="77dp"
+        android:text="카테고리"
+        android:textAppearance="@style/Bold02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_cancel"/>
+
+
+    <HorizontalScrollView
+        android:id="@+id/hsv_category"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="24dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_category"
+        app:layout_constraintTop_toBottomOf="@+id/tv_category">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:chipSpacingHorizontal="6dp"
+            app:singleLine="true"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:chipBackgroundColor="@color/selector_chip_bg"
+                android:text="외식"
+                app:chipMinHeight="39dp"
+                android:textAppearance="@style/Bold03"
+                android:textColor="@color/selector_chip"
+                app:chipEndPadding="24dp"
+                app:chipStartPadding="24dp"
+                app:chipStrokeColor="#FFBAA3"
+                app:chipStrokeWidth="1dp"/>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가벼운 외출"
+                android:textAppearance="@style/Bold03"
+                android:textColor="@color/selector_chip"
+                app:chipMinHeight="39dp"
+                app:chipBackgroundColor="@color/selector_chip_bg"
+                app:chipEndPadding="24dp"
+                app:chipStartPadding="24dp"
+                app:chipStrokeColor="#FFBAA3"
+                app:chipStrokeWidth="1dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:chipBackgroundColor="@color/selector_chip_bg"
+                android:text="여행"
+                android:textAppearance="@style/Bold03"
+                android:textColor="@color/selector_chip"
+                app:chipMinHeight="39dp"
+                app:chipEndPadding="24dp"
+                app:chipStartPadding="24dp"
+                app:chipStrokeColor="#FFBAA3"
+                app:chipStrokeWidth="1dp"/>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:chipBackgroundColor="@color/selector_chip_bg"
+                android:text="운동"
+                android:textAppearance="@style/Bold03"
+                android:textColor="@color/selector_chip"
+                app:chipMinHeight="39dp"
+                app:chipEndPadding="24dp"
+                app:chipStartPadding="24dp"
+                app:chipStrokeColor="#FFBAA3"
+                app:chipStrokeWidth="1dp"/>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:chipBackgroundColor="@color/selector_chip_bg"
+                android:text="기타"
+                android:textAppearance="@style/Bold03"
+                android:textColor="@color/selector_chip"
+                app:chipMinHeight="39dp"
+                app:chipEndPadding="24dp"
+                app:chipStartPadding="24dp"
+                app:chipStrokeColor="#FFBAA3"
+                app:chipStrokeWidth="1dp"/>
+
+        </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="날짜"
+        android:textAppearance="@style/Bold02"
+        app:layout_constraintStart_toStartOf="@+id/hsv_category"
+        app:layout_constraintTop_toBottomOf="@+id/hsv_category"
+        tools:text="날짜" />
+
+    <!-- EditText 커스텀
+    밑줄 컬러 변경 -->
+    <EditText
+        android:id="@+id/et_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="24dp"
+        android:textColorHint="@color/gray_02"
+        android:textAppearance="@style/Regular01"
+        android:hint="YYYY.MM.DD"
+        android:backgroundTint = "@color/gray_03"
+        android:gravity="top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_date"
+        app:layout_constraintTop_toBottomOf="@+id/tv_date" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="내용"
+        android:textAppearance="@style/Bold02"
+        app:layout_constraintStart_toStartOf="@+id/et_date"
+        app:layout_constraintTop_toBottomOf="@+id/et_date" />
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="0dp"
+        android:layout_height="214dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/background_edit_text"
+        android:gravity="top"
+        android:hint=" "
+        android:scrollbars="vertical"
+        android:padding="16dp"
+        android:textAppearance="@style/Regular02"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_date"
+        app:layout_constraintTop_toBottomOf="@+id/tv_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>
